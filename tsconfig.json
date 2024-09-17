@@ -1,11 +1,14 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
     },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,       // Add this line
+    "skipLibCheck": true           // Optionally, add this to skip type checking of declaration files
+  }
 }
