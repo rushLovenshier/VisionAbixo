@@ -1,0 +1,52 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5eae0;
+  font-family: "Arial", sans-serif;
+}
+
+.not-found-content {
+  text-align: center;
+  background-color: #fff; /* White background for the content */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(200, 103, 19, 0.521);
+  width: 80%;
+  max-width: 600px;
+}
+
+.not-found-header {
+  font-size: 2.5rem;
+  color: #4c6a92; /* Dark, professional blue */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.not-found-image {
+  width: 100%;
+  max-width: 200px;
+  margin: 20px 0;
+}
+
+.not-found-description {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.not-found-suggestion {
+  font-size: 1.2rem;
+  color: #d77813;
+}
+
+.not-found-suggestion a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d77813;
+}
+
+.not-found-suggestion a:hover {
+  text-decoration: underline;
+}
