@@ -8,7 +8,7 @@
     },
     "allowJs": true,
     "strict": true,
-    "esModuleInterop": true,       // Add this line
-    "skipLibCheck": true           // Optionally, add this to skip type checking of declaration files
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
