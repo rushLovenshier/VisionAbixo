@@ -3,9 +3,9 @@ import Home from "./views/Home/Home";
 import Service from "./views/Service/Service";
 import About from "./views/About/About";
 import Help from "./views/Help/Help";
+import NotFound from "./views/NotFound/NotFound";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
-import NotFound from "./views/NotFound/NotFound";
 
 const App = () => {
   return (
